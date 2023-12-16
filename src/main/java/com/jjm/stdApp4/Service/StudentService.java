@@ -1,4 +1,8 @@
 package com.jjm.stdApp4.Service;
 
-public class StudentService {
+import com.jjm.stdApp4.entity.Student;
+
+public interface StudentService {
+
+    void addStudent(Student student);
 }
