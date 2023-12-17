@@ -6,4 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface StudentRepository extends MongoRepository<Student,Integer> {
+
+    void deleteById(int id);
+
+    Student save(Student student1);
 }
